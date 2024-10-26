@@ -1,5 +1,10 @@
 package main
 
+/**
+	Remove Element
+	https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3247/
+*/
+
 // 0ms, 3.9MB
 func removeElement(nums []int, val int) int {
 	length := len(nums)

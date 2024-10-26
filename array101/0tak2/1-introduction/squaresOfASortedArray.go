@@ -1,6 +1,10 @@
 package main
 
-// 1ms, 8.5MB
+/**
+	Squares of a Sorted Array
+	https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3240/
+	1ms, 8.5MB
+*/
 func sortedSquares(nums []int) []int {
 	p1 := 0
 	p2 := len(nums) - 1

@@ -1,6 +1,10 @@
-// 0 ms, 42.2 MB
-// 투 포인터 사용 -> 힌트 보고 풀었음
-class Solution {
+/**
+	Remove Element
+	https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3247/
+  0 ms, 42.2 MB
+  투 포인터 사용 -> 힌트 보고 풀었음
+*/
+class RemoveElementSolution {
     public int removeElement(int[] nums, int val) {
         int p1 = 0;
         int p2 = nums.length - 1;

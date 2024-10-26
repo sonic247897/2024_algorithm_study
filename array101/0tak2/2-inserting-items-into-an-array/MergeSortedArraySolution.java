@@ -1,4 +1,7 @@
 /**
+ * Merge Sorted Array
+ * https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3253/
+ * 
  * FAILED
  * 
  * 반례
@@ -12,7 +15,7 @@
  * Expected:
  *   [1,2,3,4,5,6]
  */
-class Solution {
+class MergeSortedArraySolution {
     public void insertEl(int[] arr, int value, int index) {
         for (int i = arr.length - 2; i >= index; i--) {
             arr[i + 1] = arr[i];

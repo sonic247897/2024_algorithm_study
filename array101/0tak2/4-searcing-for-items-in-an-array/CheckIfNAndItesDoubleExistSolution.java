@@ -1,7 +1,13 @@
-// 2 ms, 43.6 MB
-// Map을 사용한 메모이제이션
-// Two Sum도 이렇게 가능할 듯?
-class Solution {
+/**
+ * Check If N and Its Double Exist
+ * https://leetcode.com/explore/learn/card/fun-with-arrays/527/searching-for-items-in-an-array/3250/
+ * 
+ * 2 ms, 43.6
+ * 
+ * Map을 사용한 메모이제이션
+ * Two Sum도 이렇게 가능할 듯?
+ */
+class CheckIfNAndItesDoubleExistSolution {
     public boolean checkIfExist(int[] arr) {
         HashMap<Integer, Integer> map = new HashMap<>();
         

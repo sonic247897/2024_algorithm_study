@@ -1,5 +1,9 @@
-// 6 ms, 45MB
-// 아주 느림
+/**
+ * Remove Duplicates from Sorted Array
+ * https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3248/
+ * 6 ms, 45MB
+ * 아주 느림
+ */
 class Solution {
     public int removeDuplicates(int[] nums) {
         int p1 = 1;

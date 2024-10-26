@@ -8,6 +8,8 @@ func main() {
 	fmt.Println(arr)
 }
 
+// Remove Duplicates from Sorted Array
+// https://leetcode.com/explore/learn/card/fun-with-arrays/526/deleting-items-from-an-array/3248/
 // 0ms, 6MB
 // 정답 찾아봄
 func removeDuplicates(nums []int) int {

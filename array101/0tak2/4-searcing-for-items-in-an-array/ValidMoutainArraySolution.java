@@ -1,6 +1,12 @@
-// 3ms, 45MB
-// 선형탐색. 더 좋은 방법 검토
-class Solution {
+/**
+ * Valid Mountain Array
+ * https://leetcode.com/explore/learn/card/fun-with-arrays/527/searching-for-items-in-an-array/3251/
+ * 
+ * 3ms, 45MB
+ * 
+ * 선형탐색. 더 좋은 방법 검토
+ */
+class ValidMoutainArraySolution {
     public boolean validMountainArray(int[] arr) {
         // 증가 -> 증가 -> ... -> 감소 -> 감소 -> ...만 가능
         

@@ -1,8 +1,12 @@
 package main
 
-// 0ms, 4.2MB
-// 투 포인터를 이용해 큰 수끼리 단순 비교하면서 넣어주면 된다
-// i는 이미 -1인데, j가 0 이상인 반례가 있어 처리 방법을 고민했음
+/**
+	Merge Sorted Array
+	https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3253/
+	// 0ms, 4.2MB
+	// 투 포인터를 이용해 큰 수끼리 단순 비교하면서 넣어주면 된다
+	// i는 이미 -1인데, j가 0 이상인 반례가 있어 처리 방법을 고민했음
+*/
 func merge(nums1 []int, m int, nums2 []int, n int) {
 	i := m - 1
 	j := n - 1

@@ -1,4 +1,8 @@
-class Solution {    
+/**
+ *  Duplicate Zeros
+ * https://leetcode.com/explore/learn/card/fun-with-arrays/525/inserting-items-into-an-array/3245/
+ */
+class DuplicateZerosSolution {    
     public void insertEl(int[] arr, int value, int index) {
         for (int i = arr.length - 2; i >= index; i--) {
             arr[i + 1] = arr[i];

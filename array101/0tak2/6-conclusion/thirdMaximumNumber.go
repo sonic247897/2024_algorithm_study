@@ -9,6 +9,9 @@ func main() {
 	fmt.Println(thirdMax([]int{1, 2, -2 ^ 31}))
 }
 
+// Third Maximum Number
+// https://leetcode.com/explore/learn/card/fun-with-arrays/523/conclusion/3231/
+//
 // 0ms, 4.7MB
 // solution은 아주 화려하네...
 // 시간복잡도 -> 3N -> O(N)이기는 함

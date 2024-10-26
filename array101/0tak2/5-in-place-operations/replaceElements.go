@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+/**
+		Replace Elements with Greatest Element on Right Side
+		https://leetcode.com/explore/learn/card/fun-with-arrays/511/in-place-operations/3259/
+*/
+
 func main() {
 	fmt.Println(replaceElements([]int{17, 18, 5, 4, 6, 1}))
 }

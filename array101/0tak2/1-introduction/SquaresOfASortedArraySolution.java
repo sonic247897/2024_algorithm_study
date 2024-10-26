@@ -1,4 +1,9 @@
-class Solution {
+/**
+  Squares of a Sorted Array
+  https://leetcode.com/explore/learn/card/fun-with-arrays/521/introduction/3240/
+  1ms, 47.3MB
+*/
+class SquaresOfASortedArraySolution {
     public int[] sortedSquares(int[] nums) {
         // === 스트림으로 비벼보기 ===
         // 제곱한 뒤 정렬하므로 적어도 O(n * log n)
