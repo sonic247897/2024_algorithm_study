@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> findDiagonalOrder(vector<vector<int>>& mat) {
         // 수학적 접근이 필요해보임
-        // 무조건 (0, 0)부터 시작
+        // 무조건 (0, 0)부터 시작.
         // 대각선에 위치한 원소들의 공통점은 (y, x) 좌표에서 y + x 값이 동일하다는 것. 이 상태에서 y의 값이 1씩 증가하거나 1씩 감소하는 형태로 진행된다.
         int m = mat.size();
         int n = mat[0].size();
