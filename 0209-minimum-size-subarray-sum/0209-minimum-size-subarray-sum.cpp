@@ -4,7 +4,7 @@ public:
         // 1. 수학 - 규칙 세우기. 추가배열에 누적합을 저장하지 않고, 좀 더 복잡한 규칙을 정해서 값을 저장한다.
         //  => sum >= target 인 min(right_idx - left_idx + 1) 값 저장 (left_idx < right_idx)
         // positive integers 라는 조건도 활용하면 좋다. => left_idx가 커질수록 sum이 작아지게 된다. sum 중에 최소값을 찾는게 유리하므로 left_idx를 0부터 시작해서 점점 증가시키면서 조건을 확인한다.
-        /* 투 포인터 */
+        /* 투 포인터  */
         if (nums[0] >= target) return 1;
         
         vector<int> min_length(nums.size(), 987654321);
