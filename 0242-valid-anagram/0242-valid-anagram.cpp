@@ -12,6 +12,7 @@ public:
         }
         for (int i = 0; i < t.size(); ++i) {
             alpha_count[t[i] - 'a']--;
+            // s 문자열에 없는 문자를 사용하거나, 한 문자를 너무 많이 사용하면 false
             if (alpha_count[t[i] - 'a'] < 0) {
                 return false;
             }
