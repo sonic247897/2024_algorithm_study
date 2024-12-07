@@ -4,6 +4,8 @@
 class Solution {
 public:
     int firstBadVersion(int n) {
+        /*
+        // 2ms (56.63%)
         // 내부에서 isBadVersion 최소한으로 호출해서 처음으로 true를 리턴하는 version을 찾아야 함.
         // 1. cs - (false, true)로 변하는 지점을 찾아야 한다. 이진 탐색을 하되 인접한 지점에 API 2번씩(m-1, m) 날려보도록 설계하면 어떨까?
         //  => edge case) 1부터 bad version, 마지막이 bad version
@@ -27,5 +29,21 @@ public:
 
         // should not reach here
         return -1;
+        */
+
+        // 범위 좁혀서 더 이상 좁혀나갈 수 없을 때(원소 1개 남음) 해당 원소가 분수령인 경우
+        unsigned int low = 1;
+        unsigned int high = n;
+        while (low <= high) {
+            unsigned int middle = (low + high) / 2; // @ 주의! signed integer overflow
+            if (isBadVersion(middle)) {
+                if (middle == 1) return 1; // 1부터 bad version
+                high = middle - 1;
+            } else {
+                low = middle + 1;
+            }
+        }
+
+        return low;
     }
 };
