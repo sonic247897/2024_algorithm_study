@@ -14,7 +14,7 @@ public:
             while (i < s.size() && s[i] != ' ') {
                 tmp += s[i++];
             }
-            words.push_back(tmp);
+            words.emplace_back(tmp);
         }
         
         // 2. 뒤에서부터 차례로 word를 뽑아와서 문장 만들기
