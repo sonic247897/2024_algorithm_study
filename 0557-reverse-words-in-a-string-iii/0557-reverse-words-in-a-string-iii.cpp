@@ -11,7 +11,7 @@ public:
             while (i >= 0 && s[i] != ' ') {
                 tmp += s[i--];
             }
-            words.push_back(tmp);
+            words.emplace_back(tmp);
             i--; // space
         }
         // 2. reverse word를 역순으로 나열해서 문자열 만들기
