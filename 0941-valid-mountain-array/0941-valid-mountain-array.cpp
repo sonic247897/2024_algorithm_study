@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     bool validMountainArray(vector<int>& arr) {
         if (arr.size() < 3) return false;
         // find the strict mountain array
